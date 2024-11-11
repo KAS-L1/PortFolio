@@ -1,5 +1,5 @@
-![iPhone View](screenshots/iphone-view.png)
-![MacBook View](screenshots/macbook-view.png)
+![Macbook-Air-localhost](https://github.com/user-attachments/assets/6598c4b3-ad2e-43c2-87b3-5f8d97a9df5e)
+![iPhone-14-Plus-localhost](https://github.com/user-attachments/assets/8c2c4db8-ae14-4266-b024-b224400ab5ee)
 
 # Minimalist Portfolio
 
