@@ -1,5 +1,4 @@
-![Macbook-Air-localhost](https://github.com/user-attachments/assets/6598c4b3-ad2e-43c2-87b3-5f8d97a9df5e) ![iPhone-14-Plus-localhost](https://github.com/user-attachments/assets/8c2c4db8-ae14-4266-b024-b224400ab5ee)
-
+![Macbook-Air-localhost](https://github.com/user-attachments/assets/6598c4b3-ad2e-43c2-87b3-5f8d97a9df5e) 
 # Minimalist Portfolio
 
 A personal portfolio website showcasing projects, skills, and expertise in web development and design. Built with a minimalist and modern aesthetic, this portfolio highlights the key aspects of my professional profile, including projects, skills, and contact information.
