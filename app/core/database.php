@@ -8,9 +8,9 @@ class Database
 {
     // Database connection settings
     public $DB_HOST = "localhost";
-    public $DB_USER = "root";
-    public $DB_PASSWORD = "";
-    public $DB_NAME = "hotel_crm";
+    public $DB_USER = "logi_hotel_crm";
+    public $DB_PASSWORD = "logi_hotel_crm";
+    public $DB_NAME = "logi_hotel_crm";
     public $DB;
 
     // Constructor to establish database connection
@@ -91,7 +91,7 @@ class Database
 
         $query = "SELECT {$fields} FROM {$table} WHERE {$condition} {$options}";
         $stmt = $this->DB->prepare($query);
-        
+
         if ($where) {
             $types = str_repeat('s', count($where)); // Adjust types as needed
             $stmt->bind_param($types, ...array_values($where));
@@ -115,7 +115,7 @@ class Database
 
         $query = "SELECT {$fields} FROM {$table} WHERE {$condition} {$options} LIMIT 1";
         $stmt = $this->DB->prepare($query);
-        
+
         if ($where) {
             $types = str_repeat('s', count($where)); // Adjust types as needed
             $stmt->bind_param($types, ...array_values($where));
