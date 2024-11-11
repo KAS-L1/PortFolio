@@ -1,0 +1,567 @@
+/* Global Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+body.light-mode {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Navbar Styling */
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: inherit;
+    margin-right: 10px; /* Adjusted logo spacing */
+}
+
+.navbar-nav {
+    gap: 10px; /* Controls spacing between navbar items */
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: #555;
+    padding: 0 5px; /* Compact padding */
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #6c63ff;
+}
+
+body.dark-mode .navbar-nav .nav-link {
+    color: #e0e0e0;
+}
+
+body.dark-mode .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+#toggle-theme {
+    margin-left: 10px; /* Controls spacing between links and the toggle icon */
+}
+
+body.light-mode #toggle-theme i {
+    color: #333;
+}
+
+body.dark-mode #toggle-theme i {
+    color: #ffffff;
+}
+
+/* Home Section */
+.home-section {
+    padding: 4rem 0;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .home-section {
+        flex-direction: row;
+        text-align: left;
+    }
+}
+
+.home-section h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 1rem;
+}
+
+body.dark-mode .home-section h1 {
+    color: #ffffff;
+}
+
+/* Job Title & Description Styling */
+.job-title {
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #555;
+}
+
+body.dark-mode .job-title {
+    color: #cccccc;
+}
+
+.description {
+    font-size: 1.2rem;
+    color: #777;
+}
+
+body.dark-mode .description {
+    color: #bbbbbb;
+}
+
+/* About Section */
+.about-description {
+    max-width: 700px;
+    margin: auto;
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+    padding: 0 15px;
+}
+
+body.dark-mode .about-description {
+    color: #bbbbbb;
+}
+
+/* Tech Stack Icons */
+.tech-stack-icons .tech-icon {
+    text-align: center;
+    width: 100px;
+    margin: 10px;
+    color: #444;
+    font-size: 0.9rem;
+    transition: transform 0.3s, color 0.3s;
+}
+
+body.dark-mode .tech-stack-icons .tech-icon {
+    color: #cccccc;
+}
+
+.tech-stack-icons .tech-icon img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+.tech-stack-icons .tech-icon img:hover {
+    transform: scale(1.1);
+}
+
+.tech-stack-icons .tech-icon:hover {
+    color: #6c63ff;
+}
+
+/* Profile Image Styling */
+.profile-image {
+    max-width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.profile-image:hover {
+    transform: scale(1.05);
+}
+
+/* Project Card Styling */
+.project-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+body.dark-mode .project-card {
+    background-color: #1c1c1c;
+}
+
+.project-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.project-card .card-img-top {
+    max-width: 280px;
+    height: auto;
+    margin: 0 auto 10px;
+    border-radius: 10px;
+}
+
+.project-card .card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 10px;
+}
+
+body.dark-mode .project-card .card-title {
+    color: #e0e0e0;
+}
+
+.project-card .project-description {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+body.dark-mode .project-card .project-description {
+    color: #bbbbbb;
+}
+
+/* Expertise Section Styling */
+.expertise-card {
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #f8f8f8;
+}
+
+body.dark-mode .expertise-card {
+    background-color: #1c1c1c;
+    color: #e0e0e0;
+}
+
+.expertise-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.expertise-card .card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+body.dark-mode .expertise-card .card-title {
+    color: #ffffff;
+}
+
+.expertise-card .card-text {
+    font-size: 0.95rem;
+    color: #666;
+}
+
+body.dark-mode .expertise-card .card-text {
+    color: #cccccc;
+}
+
+/* View All Works Link */
+.view-all-works {
+    font-size: 0.9rem;
+    color: #888;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.view-all-works:hover {
+    color: #6c63ff;
+}
+
+body.dark-mode .view-all-works {
+    color: #cccccc;
+}
+
+body.dark-mode .view-all-works:hover {
+    color: #ffffff;
+}
+
+/* Clients Section Styling */
+#clients {
+    padding: 4rem 0;
+}
+
+#clients .client-logo {
+    max-width: 150px;
+    transition: transform 0.3s ease;
+}
+
+#clients .client-logo:hover {
+    transform: scale(1.1);
+}
+
+#clients h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+#clients .text-decoration-none {
+    font-size: 1rem;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+#clients .text-decoration-none:hover {
+    color: #6c63ff;
+}
+
+body.dark-mode .clients-section-link {
+    color: #e0e0e0;
+}
+
+.clients-section-link:hover {
+    color: #6c63ff;
+}
+
+/* Testimonial Section Styling */
+#testimonial {
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-card {
+    border: 1px solid #ddd;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+body.dark-mode .testimonial-card {
+    background-color: #1c1c1c;
+    border-color: #333;
+}
+
+.testimonial-image-wrapper {
+    flex: 1;
+    max-width: 200px;
+}
+
+.testimonial-image {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+body.dark-mode .testimonial-image-wrapper img {
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+.testimonial-text {
+    flex: 2;
+    padding-left: 1.5rem;
+    color: #333;
+}
+
+body.dark-mode .testimonial-text {
+    color: #e0e0e0;
+}
+
+.testimonial-quote {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+body.dark-mode .testimonial-quote {
+    color: #bbbbbb;
+}
+
+.testimonial-author {
+    font-size: 1rem;
+    color: #333;
+}
+
+body.dark-mode .testimonial-author {
+    color: #e0e0e0;
+}
+
+/* Contact Section Styling */
+#contact {
+    padding: 4rem 0;
+}
+
+.contact-description {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+body.dark-mode .contact-description {
+    color: #bbbbbb;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.contact-form .form-control {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #333;
+    background-color: #f8f8f8;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+body.dark-mode .contact-form .form-control {
+    color: #e0e0e0;
+    background-color: #1c1c1c;
+    border-color: #333;
+}
+
+.contact-form .form-control::placeholder {
+    color: #999;
+}
+
+.contact-form .form-control:focus {
+    border-color: #6c63ff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(108, 99, 255, 0.5);
+}
+
+.contact-form button {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.contact-form button.btn-primary {
+    background-color: #6c63ff;
+    color: #ffffff;
+    border: none;
+}
+
+.contact-form button.btn-primary:hover {
+    background-color: #554bbf;
+}
+
+body.dark-mode .contact-form button.btn-primary {
+    background-color: #8a7bff;
+}
+
+body.dark-mode .contact-form button.btn-primary:hover {
+    background-color: #6c63ff;
+}
+
+.contact-footer {
+    color: #666;
+}
+
+.contact-footer a {
+    color: #6c63ff;
+    text-decoration: none;
+}
+
+.contact-footer a:hover {
+    text-decoration: underline;
+}
+
+body.dark-mode .contact-footer {
+    color: #cccccc;
+}
+
+body.dark-mode .contact-footer a {
+    color: #a6a6ff;
+}
+
+/* Footer Styling */
+footer {
+    padding: 1.5rem 0;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+}
+
+body.dark-mode footer {
+    background-color: #1c1c1c;
+    border-top: 1px solid #333;
+}
+
+/* Footer Flex Container */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+.footer-content {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+body.dark-mode .footer-content {
+    color: #cccccc;
+}
+
+/* Social Icons Styling */
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: #666;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #6c63ff;
+}
+
+body.dark-mode .social-icons a {
+    color: #cccccc;
+}
+
+body.dark-mode .social-icons a:hover {
+    color: #6c63ff;
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .home-section h1 {
+        font-size: 3rem;
+    }
+
+    .job-title {
+        font-size: 1.3rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .project-card {
+        max-width: 300px;
+        padding: 15px;
+    }
+
+    .project-card .card-img-top {
+        max-width: 250px;
+    }
+    
+    #testimonial {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .testimonial-text {
+        padding-left: 0;
+        margin-top: 1rem;
+    }
+    
+    .contact-form {
+        padding: 0;
+    }
+}
+
