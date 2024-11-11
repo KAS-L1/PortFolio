@@ -1,3 +1,6 @@
+![iPhone View](screenshots/iphone-view.png)
+![MacBook View](screenshots/macbook-view.png)
+
 # Minimalist Portfolio
 
 A personal portfolio website showcasing projects, skills, and expertise in web development and design. Built with a minimalist and modern aesthetic, this portfolio highlights the key aspects of my professional profile, including projects, skills, and contact information.
@@ -32,6 +35,5 @@ A personal portfolio website showcasing projects, skills, and expertise in web d
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/kas-l1![iPhone-14-Plus-localhost](https://github.com/user-attachments/assets/6b72f027-6551-485a-a7d9-2601c671bf61)
-![Macbook-Air-localhost](https://github.com/user-attachments/assets/f33ac6bb-4812-4a03-97c3-f9620d3f97e3)
-/portfolio.git
+   git clone https://github.com/kas-l1/portfolio.git
+
