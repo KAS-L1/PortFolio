@@ -8,7 +8,7 @@
             <meta content="Aspiring web developer showcasing portfolio and resume" name="description">
             <meta content="web develoepr, Portfolio, Resume, Projects" name="keywords">
             <link rel="icon" href="https://github.githubassets.com/favicons/favicon.png" type="image/png">
-            <link rel="icon" href="https://github.githubassets.com/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+            <link rel="apple-touch-icon" href="https://github.githubassets.com/favicons/apple-touch-icon.png">
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
             <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" rel="stylesheet">
@@ -110,7 +110,7 @@
                             </div>
                             <div class="col-12 col-md-4">
                                 <div class="card project-card shadow-sm h-100">
-                                    <img src="/assets/img/project.png" class="card-img-top" alt="Paradise Hotel">
+                                    <img src="/assets/img/project1.png" class="card-img-top" alt="Paradise Hotel">
                                     <div class="card-body">
                                         <h5 class="card-title">Paradise Hotel</h5>
                                         <p class="project-description">Predictive Analytics Dashboard</p>
